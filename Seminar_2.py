@@ -37,3 +37,19 @@
 # print("Первое число", y1*-1)
 # y2 = (-s-math.sqrt(disc))/2
 # print("Второе число", y2*-1)
+
+
+# Задача 14: Требуется вывести все целые степени двойки (т.е. числа вида 2k),
+# не превосходящие числа N.
+
+# n = int(input("Введите число "))
+# count = 0
+# number = 2
+# result = 0
+# while result < n:
+#     count += 1
+#     result = number ** count
+#     if result > n:
+#         print("Число 2 в степени ", count-1)
+#     elif result == n:
+#         print("Число 2 в степени ", count)
